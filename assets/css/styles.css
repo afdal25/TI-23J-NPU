@@ -436,7 +436,9 @@ body.dark-theme {
 }
 
 .popular__img {
-  width: 2px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
   position: relative;
   inset: 0;
   top: -2.5rem;
@@ -555,7 +557,7 @@ body.dark-theme {
 
 @media screen and (max-width: 500px) {
   .wrapper {
-    width: 90%;
+    width: 100%;
   }
 }
 
